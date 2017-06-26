@@ -1,0 +1,48 @@
+body{
+	padding-top:70px;
+	background: #277FB1;
+}
+
+.main-body{
+	background: #56AEED;
+	padding: 5px;
+}
+
+h1{
+	font-family: 'roboto slab';
+  letter-spacing: 15px;
+	font-weight: bold;
+	transition: width 5s ease-in;
+}
+
+h1:hover{
+	width: 50%;
+}
+
+.row.flex {
+    display: inline-flex;
+    width: 100%;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.jumbotron{
+	color:white;
+	background-image:url(https://cdn.suwalls.com/wallpapers/vector/blue-polygon-28641-400x250.jpg);
+	background-size: cover;
+}
+
+.navbar-default{
+	background-image:url(https://cdn.suwalls.com/wallpapers/vector/blue-polygon-28641-400x250.jpg);
+	border: none;
+}
+
+.navbar-default .navbar-nav>li>a{
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+}
