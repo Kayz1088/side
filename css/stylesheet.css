@@ -6,7 +6,9 @@ body{
 .main-body{
 	background: #56AEED;
 	padding: 5px;
+	
 }
+
 
 h1{
 	font-family: 'roboto slab';
@@ -36,7 +38,10 @@ h1:hover{
 
 .navbar-default{
 	background-image:url(https://cdn.suwalls.com/wallpapers/vector/blue-polygon-28641-400x250.jpg);
-	border: none;
+	border: none; 
+	margin: 0;
+	padding: 0;
+
 }
 
 .navbar-default .navbar-nav>li>a{
